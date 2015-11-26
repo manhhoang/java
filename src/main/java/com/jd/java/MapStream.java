@@ -3,7 +3,7 @@ package com.jd.java;
 import java.util.Arrays;
 import java.util.List;
 
-public class Map {
+public class MapStream {
 
   public static void main(String[] args) {
     List<String> names = Arrays.asList("peter", "anna", "aike", "xenia");
