@@ -48,7 +48,7 @@ public class Flattener {
   }
 
   @Test
-  public void testFlattenComplexNested() {
+  public void testFlattenComplexNestedList() {
     Assert.assertEquals(a(1, 2, 3, 4, 5, 6, 7), flatten(a(a(1), 2, a(a(3, 4), 5), a(a(a(6))), 7)));
 
   }
