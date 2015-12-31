@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class Group {
+public class GroupingBy {
 
   static class Employee {
     public static enum Gender {
@@ -36,7 +36,7 @@ public class Group {
     public LocalDate getDob() {
       return dob;
     }
-    
+
     public double getIncome() {
       return income;
     }
