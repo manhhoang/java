@@ -20,4 +20,8 @@ public class AtomicIntegers {
 
   }
 
+  private static void stop(ExecutorService executor) {
+    executor.shutdown();
+  }
+
 }
