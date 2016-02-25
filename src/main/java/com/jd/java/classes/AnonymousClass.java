@@ -1,4 +1,4 @@
-package com.jd.java;
+package com.jd.java.classes;
 
 import java.util.ArrayList;
 import java.util.List;

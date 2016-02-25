@@ -1,4 +1,4 @@
-package com.jd.java;
+package com.jd.java.classes;
 
 public class InnerClass {
 
