@@ -23,6 +23,7 @@ class MyConnectionPool implements ConnectionPool {
 
   public Connection getConnection() {
     Connection con = new Connection() {
+
       @Override
       public void close() {
         addConnection(this);
@@ -44,7 +45,7 @@ class MyConnectionPool implements ConnectionPool {
 
   public void addConnection(Connection con) {
     if (this.connections == null)
-      connections = new ArrayList<Connection>();
+      connections = new ArrayList<>();
     connections.add(con);
   }
 }

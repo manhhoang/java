@@ -1,4 +1,4 @@
-package com.jd.java8;
+package com.jd.java8.function_interface;
 
 @FunctionalInterface
 interface Converter<F, T> {

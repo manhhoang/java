@@ -1,4 +1,6 @@
-package com.jd.java8;
+package com.jd.java8.function_interface;
+
+import com.jd.java8.Person;
 
 import java.util.function.Consumer;
 

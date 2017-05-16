@@ -1,13 +1,13 @@
 package com.jd.java8;
 
 public class Person {
-  String firstName;
-  String lastName;
+  public String firstName;
+  public String lastName;
 
-  Person() {
+  public Person() {
   }
 
-  Person(String firstName, String lastName) {
+  public Person(String firstName, String lastName) {
     this.firstName = firstName;
     this.lastName = lastName;
   }
