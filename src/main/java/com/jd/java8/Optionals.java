@@ -12,5 +12,11 @@ public class Optionals {
     optional.orElse("fallback"); // "bam"
 
     optional.ifPresent((s) -> System.out.println(s.charAt(0))); // "b"
+
+    Optional<String> nullable = Optional.ofNullable(null);
+    if(nullable.isPresent()){
+      System.out.println(nullable.get());
+    }
+    System.out.println(nullable); // Optional.empty
   }
 }

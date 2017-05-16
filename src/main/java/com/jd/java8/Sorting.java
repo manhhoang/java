@@ -11,6 +11,7 @@ public class Sorting {
     List<String> names = Arrays.asList("peter", "anna", "mike", "xenia");
 
     Collections.sort(names, new Comparator<String>() {
+
       @Override
       public int compare(String a, String b) {
         return b.compareTo(a);
@@ -25,6 +26,6 @@ public class Sorting {
 
     Collections.sort(names, (a, b) -> b.compareTo(a));
 
-    names.stream().forEach((x) -> System.out.print(x + " "));
+    names.stream().forEach((x) -> System.out.println(x + " "));
   }
 }
