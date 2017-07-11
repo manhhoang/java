@@ -1,4 +1,4 @@
-package com.jd.thread;
+package com.jd.java_general.async;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;

@@ -1,4 +1,4 @@
-package com.jd.java.regular_expressions;
+package com.jd.java_general.regular_expressions;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

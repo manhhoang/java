@@ -1,4 +1,4 @@
-package com.jd.java.generic;
+package com.jd.java_general.generic;
 
 import java.util.Arrays;
 import java.util.List;
