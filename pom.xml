@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.jd.java</groupId>
-	<artifactId>java</artifactId>
+	<artifactId>learn-java</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
 
@@ -30,7 +30,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>java</finalName>
+		<finalName>learn-java</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
