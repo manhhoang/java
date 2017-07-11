@@ -28,20 +28,19 @@ public class ConcurrentSkipListMapExample {
         ConcurrentNavigableMap<String, String> subMap = concurrentSkipListMap.subMap("1111", "3333");
         NavigableSet navigableSubKeySet = subMap.keySet();
         System.out.println("The keys associated with the submap keys from 1111 to 3333 are");
-
         for (Iterator subMapIterator = navigableSubKeySet.iterator(); subMapIterator.hasNext(); ) {
             System.out.println(subMapIterator.next());
         }
+
         ConcurrentNavigableMap<String, String> headerMap = concurrentSkipListMap.headMap("2222");
         System.out.println("The keys associated with the headMap less than 2222");
-
         NavigableSet navigableHeadMapKeySet = headerMap.keySet();
         for (Iterator headMapIterator = navigableHeadMapKeySet.iterator(); headMapIterator.hasNext(); ) {
             System.out.println(headMapIterator.next());
         }
+
         ConcurrentNavigableMap<String, String> tailMap = concurrentSkipListMap.tailMap("1111");
         System.out.println("Thekeys associated with the tailMap less than 1111");
-
         NavigableSet navigableTailMapKeySet = tailMap.keySet();
         for (Iterator tailMapIterator = navigableTailMapKeySet.iterator(); tailMapIterator.hasNext(); ) {
             System.out.println(tailMapIterator.next());
