@@ -18,5 +18,8 @@ public class Optionals {
       System.out.println(nullable.get());
     }
     System.out.println(nullable); // Optional.empty
+
+    Object notNull = Optional.ofNullable(null).orElse(new Object());
+    System.out.println(notNull);
   }
 }
