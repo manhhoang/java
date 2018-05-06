@@ -10,6 +10,10 @@ public class Sorting {
   public static void main(String[] args) {
     List<String> names = Arrays.asList("peter", "anna", "mike", "xenia");
 
+    Collections.sort(names, Comparator.comparing(String::length).reversed());
+    names.forEach(name -> System.out.print(name + " "));
+    System.out.println();
+
     Collections.sort(names, new Comparator<String>() {
 
       @Override
